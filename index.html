@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <title>Title</title>
 </head>
 <body>
@@ -43,20 +45,20 @@
     <section class="section-about">
         <div class="u-center-text u-margin-bottom-big">
             <h2 class="header-secondary">
-                Experience
+                Profile
             </h2>
         </div>
         <div class="row">
             <div class="col-1-of-2">
                 <h3 class="header-tertiary u-margin-bottom-small">
-                    What is Lorem Ipsum?
+                    About me
                 </h3>
                 <p class="paragraph">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s.
                 </p>
                 <h3 class="header-tertiary u-margin-bottom-small">
-                    Why do we use it?
+                    My vision
                 </h3>
                 <p class="paragraph">
                     It is a long established fact that a reader will be distracted by the readable content of a page
@@ -66,54 +68,73 @@
             </div>
             <div class="col-1-of-2">
                 <div class="composition">
-                    <img src="img/nat-1.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                    <img src="img/nat-2.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                    <img src="img/nat-3.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                    <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                         sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                         alt="Photo 1" class="composition__photo composition__photo--p1"
+                         src="img/nat-1.jpg">
+                    <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                         sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                         alt="Photo 2" class="composition__photo composition__photo--p2"
+                         src="img/nat-2.jpg">
+                    <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                         sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                         alt="Photo 3" class="composition__photo composition__photo--p3"
+                         src="img/nat-3.jpg">
                 </div>
             </div>
         </div>
     </section>
     <section class="section-features">
         <div class="row">
-            <div class="col-1-of-4">
+            <div class="col-1-of-5">
                 <div class="feature-box">
-                    <i class="feature-box__icon icon-basic-world"></i>
-                    <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                    <i class="feature-box__icon devicon-java-plain"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Java</h3>
+                    <p class="feature-box__text">
+                        Used
+                        <span class="font-bold">Spring, Spring-boot</span> framework to create backend application.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-5">
+                <div class="feature-box">
+                    <i class="feature-box__icon devicon-mysql-plain"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Database</h3>
+                    <p class="feature-box__text">
+                        Worked primary on <span class="font-bold">Mysql</span> also have experience in <span class="font-bold">Elastic search, mongodb</span> etc.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-5">
+                <div class="feature-box">
+                    <i class="feature-box__icon devicon-javascript-plain"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Javascript</h3>
+                    <p class="feature-box__text">
+                        Created web application using <span class="font-bold">react, angular</span> and mobile application using <span class="font-bold">react-native</span>.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-5">
+                <div class="feature-box">
+                    <i class="feature-box__icon devicon-html5-plain"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">HTML5</h3>
                     <p class="feature-box__text">
                         It is a long established fact that a reader will be distracted by the readable content
                     </p>
                 </div>
             </div>
-            <div class="col-1-of-4">
+            <div class="col-1-of-5">
                 <div class="feature-box">
-                    <i class="feature-box__icon icon-basic-compass"></i>
-                    <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                    <i class="feature-box__icon devicon-react-original"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">React</h3>
                     <p class="feature-box__text">
-                        It is a long established fact that a reader will be distracted by the readable content
-                    </p>
-                </div>
-            </div>
-            <div class="col-1-of-4">
-                <div class="feature-box">
-                    <i class="feature-box__icon icon-basic-map"></i>
-                    <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
-                    <p class="feature-box__text">
-                        It is a long established fact that a reader will be distracted by the readable content
-                    </p>
-                </div>
-            </div>
-            <div class="col-1-of-4">
-                <div class="feature-box">
-                    <i class="feature-box__icon icon-basic-heart"></i>
-                    <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
-                    <p class="feature-box__text">
-                        It is a long established fact that a reader will be distracted by the readable content
+                        Knowledge of <span class="font-bold">Redux, React-router</span> etc. and  architecture of react application.
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-tours">
+    <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
             <h2 class="header-secondary">
                 Experience
@@ -146,7 +167,7 @@
                                 <div class="card__price-only">Only</div>
                                 <div class="card__price-value">$297</div>
                             </div>
-                            <a href="#" class="btn btn-white">Book now</a>
+                            <a href="#popup" class="btn btn-white">Book now</a>
                         </div>
                     </div>
                 </div>
@@ -177,7 +198,7 @@
                                 <div class="card__price-only">Only</div>
                                 <div class="card__price-value">$297</div>
                             </div>
-                            <a href="#" class="btn btn-white">Book now</a>
+                            <a href="#popup" class="btn btn-white">Book now</a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +229,7 @@
                                 <div class="card__price-only">Only</div>
                                 <div class="card__price-value">$297</div>
                             </div>
-                            <a href="#" class="btn btn-white">Book now</a>
+                            <a href="#popup" class="btn btn-white">Book now</a>
                         </div>
                     </div>
                 </div>
@@ -318,6 +339,27 @@
             </div>
         </div>
     </section>
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="./img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                <img src="./img/nat-9.jpg" alt="Tour photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="header-secondary u-margin-bottom-small">
+                    Important notes
+                </h2>
+                <div class="popup__text">
+                    On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
+                    demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee
+                    the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their
+                    duty through weakness of will, which is the same as saying through shrinking from toil and pain.
+                </div>
+                <a href="#" class="btn btn-primary">Start Now</a>
+            </div>
+        </div>
+    </div>
 </main>
 </body>
 </html>
