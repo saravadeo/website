@@ -71,6 +71,11 @@ body {
   }
 }
 
+.paragraph span {
+  display: block;
+  word-wrap: break-word;
+}
+
 .font-bold {
   font-weight: 700;
 }
